@@ -1,0 +1,19 @@
+accept: application/json
+accept-Encoding: identity
+accept-language: ru,en;q=0.9
+content-type: application/json
+origin: https://www.kinopoisk.ru
+priority: u=1, i
+referer: https://www.kinopoisk.ru/
+sec-ch-ua: "Chromium";v="130", "YaBrowser";v="24.12", "Not?A_Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-full-version-list: "Chromium";v="130.0.6723.170", "YaBrowser";v="24.12.3.781", "Not?A_Brand";v="99.0.0.0", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-platform-version: "10.0.0"
+sec-ch-ua-wow64: ?0
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-site
+service-id: 25
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 YaBrowser/24.12.0.0 Safari/537.36
+x-preferred-language: ru

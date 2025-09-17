@@ -1,0 +1,8 @@
+{
+    "operationName": "TvSeriesMediaPosts",
+    "variables": {
+        "mediaPostsLimit": 8,
+        "tvSeriesId": 404900
+    },
+    "query": "query TvSeriesMediaPosts($tvSeriesId: Long!, $mediaPostsLimit: Int = 10) { tvSeries(id: $tvSeriesId) { id mediaPosts: post(limit: $mediaPostsLimit) { items { id title commentsCount publishedAt commentable type thumbImage { avatarsUrl fallbackUrl __typename } __typename } total __typename } __typename } } "
+}

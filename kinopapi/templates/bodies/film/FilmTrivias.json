@@ -1,0 +1,10 @@
+{
+    "operationName": "FilmTrivias",
+    "variables": {
+        "triviasLimit": 3,
+        "triviasOffset": 0,
+        "filmId": 1209193,
+        "triviasType": "FACT"
+    },
+    "query": "query FilmTrivias($filmId: Long!, $triviasType: TriviaType!, $triviasLimit: Int = 10, $triviasOffset: Int = 0) { film(id: $filmId) { id trivias(type: $triviasType, limit: $triviasLimit, offset: $triviasOffset) { items { id isSpoiler text type __typename } total limit offset __typename } __typename } } "
+}

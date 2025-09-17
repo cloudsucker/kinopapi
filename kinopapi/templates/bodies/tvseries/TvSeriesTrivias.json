@@ -1,0 +1,10 @@
+{
+    "operationName": "TvSeriesTrivias",
+    "variables": {
+        "triviasLimit": 3,
+        "triviasOffset": 0,
+        "tvSeriesId": 404900,
+        "triviasType": "FACT"
+    },
+    "query": "query TvSeriesTrivias($tvSeriesId: Long!, $triviasType: TriviaType!, $triviasLimit: Int = 10, $triviasOffset: Int = 0) { tvSeries(id: $tvSeriesId) { id trivias(type: $triviasType, limit: $triviasLimit, offset: $triviasOffset) { items { id isSpoiler text type __typename } total limit offset __typename } __typename } } "
+}

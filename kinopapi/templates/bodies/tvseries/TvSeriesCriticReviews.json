@@ -1,0 +1,8 @@
+{
+    "operationName": "TvSeriesCriticReviews",
+    "variables": {
+        "criticReviewsLimit": 10,
+        "tvSeriesId": 404900
+    },
+    "query": "query TvSeriesCriticReviews($tvSeriesId: Long!, $criticReviewsLimit: Int = 10) { tvSeries(id: $tvSeriesId) { id criticReviews(limit: $criticReviewsLimit) { items { id text type author { firstName lastName __typename } source { title icon { avatarsUrl fallbackUrl __typename } __typename } __typename } total __typename } __typename } } "
+}

@@ -1,0 +1,2 @@
+include README.md
+recursive-include kinopapi/templates *.json *txt
